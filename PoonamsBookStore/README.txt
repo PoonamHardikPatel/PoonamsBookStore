@@ -16,7 +16,7 @@
 
 2022-10-28 11:02 am
 
-- Start the Part 1.1 Review
+- Start the Part 1.1 - Review
 - Create "README.txt" file and add all the information about project in it.
 - Craete a GitHub repository and push all changes.
 
@@ -26,17 +26,17 @@
 - Open and Update the "Startup.cs" file.
 
 - Commit All Changes to GitHub repository.
-- Complete the Part 1.1 Review
+- Complete the Part 1.1 - Review
 
 
 //----------------------------------------------------------------------------------------
 
 
-- Start the Part 1.2 Debugging
+- Start the Part 1.2 - Debugging
 - Rebuild the application - All done
 - Test the application - All good
 - All tabs like "Home" & "Privacy" are woking good.
-- Complete the PArt 1.2 Debugging
+- Complete the Part 1.2 - Debugging
 
 
 //----------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@
 
 2022-10-28 11:30 am
 
-- Start the Part 1.3 Bootstrap
+- Start the Part 1.3 - Bootstrap
 - Go to "Bootstrap.com" 
 - Select any theme
 - Download the css of selected theme
@@ -87,7 +87,7 @@
 - Now, change the "Dropdown" to "Content Management" - the value of "a" tag
 
 - Commit All Changes to GitHub repository.
-- Complete the Part 1.3 Bootstrap
+- Complete the Part 1.3 - Bootstrap
 
 
 //----------------------------------------------------------------------------------------
@@ -95,7 +95,7 @@
 
 2022-10-31 01:25 pm
 
-- Start the Part 1.4 Add Projects & Modify
+- Start the Part 1.4 - Add Projects & Modify
 - Add 3 new projects (.NET Core Class library) to that application : 
 - through "right" click on solution file named - "Solution 'PoonamsBookStore'" > click on "Add" option > select "New Project" option
 - select "C#" and "All" for other two dropdown 
@@ -217,3 +217,37 @@
 //----------------------------------------------------------------------------------------
 
 
+- Started with the Utility class project as per the pptx.
+- move the Homecontrollers.cs file to Area > View > home and delete the "Data" and "Models" folder...
+- Save the content and run the application
+- After running the web application update the git repo... 0608
+
+- Add Area Admin in the Areas folder.
+- Delete the "Data" and "Models" folder from it...
+- View the content properly and delete the Controllers folder from the main project !!!
+- Update the github repository and save the content...
+
+- Commit All Changes to GitHub repository.
+- Complete the Part 1.4 - Add Projects & Modify
+
+
+//----------------------------------------------------------------------------------------
+
+
+- END OF PART - 1
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-10 08:30 pm - START PART - 2
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Start the Part 2.1 - Create the DB
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+ 
