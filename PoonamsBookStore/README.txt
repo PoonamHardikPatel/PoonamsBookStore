@@ -250,4 +250,45 @@
 - Build the project ..
 - Rebuild the application - All done
 - Test the apllication - All good
+
+- Review appsettings.json file 
+- Modify the database name and save it.
  
+- Open the NuGet Package manager Console 
+- Add the migration with the command : Add-Migration AddDefaultIdentityMigration
+- Build succeeded but target project is not correct and show below error :
+	- Output :
+		-Build started...
+		- Build succeeded.
+		- Your target project 'PoonamsBookStore' doesn't match your migrations assembly 'PoonamsBooks.DataAccess'. Either change your target project or change your migrations assembly.
+		- Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("PoonamsBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
+		- Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+ 
+- Change to the correct default project : 
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221111015106_AddDefaultIdentityMigration.cs"
+
+- Review this new created migration file
+- Update the ASP.NET Identity 
+
+- Once all changes are done in migration file then 
+- Open the NuGet Package manager Console
+- Update the database with the command : Update-Database
+- Build succeeded with target project :
+	- Output :
+		-Build started...
+		- Build succeeded.
+		- Done
+
+- Review the updated database in the SQL Server Object Explorer from "View" menu through menu bar 
+- Open "SQL Server Object Explorer > (localdb)... > Database > PoonamsBookStore > Tables"
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Add a new table to the DB by creating a Category model and push it to the DB :
+- Add new class file in "PoonamsBooks.Models" through
+	- Right click on "PoonamsBooks.Models > Add > Class" 
+	- named : "Category.cs"
+
+- 
