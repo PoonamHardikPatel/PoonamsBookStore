@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoonamsBookStore", "PoonamsBookStore\PoonamsBookStore.csproj", "{27A1C45A-5E22-45FC-B6E2-F840B9905C66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoonamsBooks.DataAccess", "PoonamsBooks.DataAccess\PoonamsBooks.DataAccess.csproj", "{B0F9B4BA-F5BE-409F-83CC-E703EFADD8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoonamsBooks.Models", "PoonamsBooks.Models\PoonamsBooks.Models.csproj", "{B341C5A0-5BF5-4CC7-A867-263B732D95ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoonamsBooks.Utility", "PoonamsBooks.Utility\PoonamsBooks.Utility.csproj", "{5CD758D7-71CD-499F-B23A-03B1C7E1D0BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{27A1C45A-5E22-45FC-B6E2-F840B9905C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A1C45A-5E22-45FC-B6E2-F840B9905C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A1C45A-5E22-45FC-B6E2-F840B9905C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F9B4BA-F5BE-409F-83CC-E703EFADD8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F9B4BA-F5BE-409F-83CC-E703EFADD8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F9B4BA-F5BE-409F-83CC-E703EFADD8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F9B4BA-F5BE-409F-83CC-E703EFADD8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B341C5A0-5BF5-4CC7-A867-263B732D95ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B341C5A0-5BF5-4CC7-A867-263B732D95ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B341C5A0-5BF5-4CC7-A867-263B732D95ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B341C5A0-5BF5-4CC7-A867-263B732D95ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD758D7-71CD-499F-B23A-03B1C7E1D0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD758D7-71CD-499F-B23A-03B1C7E1D0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD758D7-71CD-499F-B23A-03B1C7E1D0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD758D7-71CD-499F-B23A-03B1C7E1D0BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
