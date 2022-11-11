@@ -319,4 +319,33 @@
 - Commit All Changes to GitHub repository.
 
 - End time : 10:09 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-11 5:15 pm 
+
+- Open VS 2019 
+- Clone the repository ..
+
+- But "Categories" table is not showing in SQL Server Database
+- So trying again with the migration and update steps for Category.
+
+- Delete the "AddCategoryToDb.cs" fiel form the Migration folder and try again.
+- Re-run the "Add-Migration AddCategoryToDb" command 
+- And then run again "Update-Database"
+
+- After this step - now it's showing "Categories" table in the SQL Server Object Explorer tables.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
+
+
 - Complete the Part 2.1 - Create the DB
