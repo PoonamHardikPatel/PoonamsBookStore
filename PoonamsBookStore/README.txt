@@ -291,4 +291,32 @@
 	- Right click on "PoonamsBooks.Models > Add > Class" 
 	- named : "Category.cs"
 
-- 
+- Open the NuGet Package manager Console 
+- Add the migration with the command : Add-Migration AddCategoryToDb
+- Build succeeded :
+	- Output :
+		-Build started...
+		- Build succeeded.
+
+- Modify the code in "Category.cs" file.
+- Add properties in cs file "Id & Name"
+
+- Update the "ApplicationDbContext.cs" file 
+- Add "using PoonamsBooks.Models;" namespace
+- And add getter and setter for "Category"
+
+- Re-run the "Add-Migration AddCategoryToDb" command in NuGet Package manager console
+- Then run the "Update-Database" command in Package console
+- Build succeeded :
+	- Output :
+		-Build started...
+		- Build succeeded.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
+
+- End time : 10:09 pm
+- Complete the Part 2.1 - Create the DB
