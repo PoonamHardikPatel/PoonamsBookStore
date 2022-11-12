@@ -380,8 +380,17 @@
 - Implement the class that implements the repository.
 - Add new class file named "Repository.cs" in "PoonamsBooks.DataAccess > Repository" path
 	- through right click on "Repository" folder, choose the options : "Add > Class"
-- Open and update this newly created file "Repository.cs" as pe rthe pptx
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
 
+- Open and update this newly created file "Repository.cs" as pe rthe pptx
+- Include the using statement in the top of the file "using PoonamsBooks.DataAccess.Repository.IRepository;"
+- View the potential fixes and "implement interface"
+- Update the class defination and do all step and code
+- Modify the code to create the constructors and dependency injection (DI)
+- Replace the given code from the folder "Assignment 2 Files > Repository.cs" with our "Repository.cs" file
+- Change the class defination and using statements : from "Andrews" to "Poonams".
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
