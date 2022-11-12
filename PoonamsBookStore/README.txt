@@ -326,8 +326,8 @@
 
 2022-11-11 5:15 pm 
 
-- Open VS 2019 
-- Clone the repository ..
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
 
 - But "Categories" table is not showing in SQL Server Database
 - So trying again with the migration and update steps for Category.
@@ -343,9 +343,45 @@
 - Test the apllication - All good
 
 - Commit All Changes to GitHub repository.
+- Complete the Part 2.1 - Create the DB
 
 
 //----------------------------------------------------------------------------------------
 
 
-- Complete the Part 2.1 - Create the DB
+2022-11-12 12:50 pm
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Start the Part 2.2 - Repository
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- After creating the "Categoy.cs" and adding it to the ApplicationDBContext.
+- Now it's time to implement the "Repository",
+	a generic way of accessing common functionality (e.g. getting a record), in the .DataAccess project.
+
+- Add a new folder name it "Repository" (for class implementations of interfaces) in PoonamsBooks.DataAccess project
+- And add an "IRepository" (for the interfaces) folder inside the "Repository" folder
+
+- Add a new item of type interface to the folder and name it "IRepository.cs"
+- Open the file "IRepository.cs" and update the code as per the pptx.
+- Add using statements..
+- Modify this file, so it can be used on the Category class to do all the CRUD operations.
+- Methods to use for CRUD : 
+	- Get item from the DB
+	- List of Categories
+	- Add objects
+	- Remove objects
+
+- Implement the class that implements the repository.
+- Add new class file named "Repository.cs" in "PoonamsBooks.DataAccess > Repository" path
+	- through right click on "Repository" folder, choose the options : "Add > Class"
+- Open and update this newly created file "Repository.cs" as pe rthe pptx
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
+
