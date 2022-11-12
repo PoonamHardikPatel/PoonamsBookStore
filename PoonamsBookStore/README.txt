@@ -394,3 +394,33 @@
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
+
+- Create individual repos for Category and all potential models to be added in the future 
+	- CategoryRepository.cs
+	- ICategoryRepository.cs
+- Create the file in "Repository" folder named "CategoryRepository.cs"
+- Also create the file in "IRepository" folder named "ICategoryRepository.cs"
+
+- Modify "CategoryRepository.cs" 
+	- note the using statements and the message for formal parameters
+	- review in "Repository.cs" the method pointing to the ApplicationDbContext
+- Modify "ICategoryRepository.cs" interface
+- Review and modify the error now in "CategoryRepository.cs" 
+	- Implement the interface to update 
+
+- Go back to "CategoryRepository.cs" file 
+- Rectify the error line - select the dropdown option on "ICategoryRepository"
+- Through this step - automatic generate the "Update" method
+- Complete the remaining modifications and write the comments
+
+- After completing step till here ...
+- I got one error in "FirstOrDefault" in "CategoryRepository.cs" file
+	- Because I forgot to add one using statement "using System.Linq;"
+	- After adding this using statement, error is recify.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
