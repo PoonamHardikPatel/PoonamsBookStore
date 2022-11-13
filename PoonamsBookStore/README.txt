@@ -395,6 +395,12 @@
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
 
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-12 2:50 pm
+
 - Create individual repos for Category and all potential models to be added in the future 
 	- CategoryRepository.cs
 	- ICategoryRepository.cs
@@ -424,3 +430,48 @@
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-12 5:24 pm
+
+- Implement a stored procedure repository and map multiple repositories in a Unit of Work 
+- Add a new interface in the folder "IRepository" named "ISP_Call.cs" - that extends "IDisposable"
+- Include the methods shown (note the comments) and install the NuGet package for "Dapper"
+- Alter + Enter on "DynamicParameters" in "ISP_Call.cs" file 
+	- Select last option "Install package 'Dapper'"
+	- Select first option "Find and install latest version" for using statement "using Dapper;"
+
+- Now implement this with a new class in the "Repository" folder.
+
+- Add a new class "SP_Call.cs" in the "Repository" folder 
+- Select the appropriate using statement and implement the "ISP_Call" interface
+
+- Alter + Enter on implemented "ISP_Call" 
+	- Select first option and it's generate bydefault code for that file 
+	- Implements interface 
+
+- Add a connection to the database and using statements 
+- Update the implementation of the "ISP_Call.cs" interface
+
+- Open the file "SP_Call.cs" and update/changes all the code as per pptx
+
+- Now add the wrapper for Unit of Work
+- Add a new interface "IUnitOfWork.cs" to the folder "IRepository" and update the code.
+
+- Now implement a new interface inside the folder "Repository" named "UnitOfWork.cs" and update the code.
+- Modify the code (make sure the public class implements the interface - UnitOfWork : IUnitOfWork)
+- Open the file "UnitOfWork.cs" and update the code and include using statements.
+
+- To make it accessible by the project, register it in "Startup.cs" file in the "ConfigureServices()" method 
+	(don't forget the using statement)
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
+

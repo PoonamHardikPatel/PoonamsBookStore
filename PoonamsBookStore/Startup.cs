@@ -1,3 +1,5 @@
+using PoonamsBooks.DataAccess.Repository.IRepository;
+using PoonamsBooks.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +33,7 @@ namespace PoonamsBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            // remove "options => options.SignIn.RequireConfirmedAccount = true"
             /*
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -38,6 +41,8 @@ namespace PoonamsBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
