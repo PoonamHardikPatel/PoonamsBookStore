@@ -474,4 +474,15 @@
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
+- Complete the Part 2.2 - Repository
 
+- End time : 8:48 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+- Take a break for dinner ...........
+
+
+//----------------------------------------------------------------------------------------
