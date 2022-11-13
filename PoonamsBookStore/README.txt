@@ -549,9 +549,37 @@
 - Add "IActionResult" for "Upsert" in controller and add "View" for that from controller action
 - Copy and add the html from the "Category Upsert View.txt" from "Assignment 2 Files" 
 
-- Create a "partial view" for the "EDIT | BACK".
-- Through - right click on the folder "Shared > Add > View" 
+- Create a "partial view" for the "Create | BACK" named "_CreateAndBackToListButton.cshtml"
+- Through - right click on the folder "general Views > Shared > Add > View" 
 - Change the name as per given name and select the check box for partial view 
+- Update the code in "_CreateAndBackToListButton.cshtml" file
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
+
+- Create a "partial view" for the "EDIT | BACK" named "_EditAndBackToListButton.cshtml"
+- Through - right click on the folder "general Views > Shared > Add > View" 
+- Change the name as per given name and select the check box for partial view 
+- Update the code in "_EditAndBackToListButton.cshtml" file
+
+- Open and Update the file "Upsert.cs" as per the given "Assignment 2 Files".
+- Add the "asp-action" to the "Index.cshtml" page.
+
+- Navigate to Category > Create New Category
+- Modify "Upsert.cshtml" - so TITLE now uses the "@title" variable.
+- Add the "@section" call to "Scripts" to validate input (or lack of) on the client-side.
+
+- Now it's time to create an "Upsert POST" action method in "CategoryController.cs" file.
+- Save method is not available, now add to the "IUnitOfWork.cs".
+- Update all changes as per pptx in "CategoryRepository.cs".
+
+- Save all changes till this point.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- End time : 3:45 am
+
+
+//----------------------------------------------------------------------------------------
