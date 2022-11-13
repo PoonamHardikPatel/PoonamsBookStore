@@ -570,8 +570,10 @@
 - Add the "@section" call to "Scripts" to validate input (or lack of) on the client-side.
 
 - Now it's time to create an "Upsert POST" action method in "CategoryController.cs" file.
-- Save method is not available, now add to the "IUnitOfWork.cs".
+- Save method is not available, now add the "void Save()" method to the "IUnitOfWork.cs" interface.
 - Update all changes as per pptx in "CategoryRepository.cs".
+- Remove the "_db.SaveChanges()" method in the "CategoryRepository.cs"
+- And Move the "_unitOfWork.Save()" method with the return "RedirectToAction" method.
 
 - Save all changes till this point.
 
@@ -585,3 +587,38 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-13 8:46 am 
+
+- Good Morning........
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Now it's time to add the API(Application Programming Interface) Call 
+	- for "HTTPDelete" in "CategoryController.cs" file
+- Open the file "Areas > Admin > Controllers > CategoryController.cs" file 
+	- and add the "Delete" method in this file
+	- Code as per the pptx
+
+- Then implement the "HTTPDelete" with a "Delete" method
+	- in "category.js" file to add functionality to the application and call the API
+- Open the file "category.js" file 
+	- Add the "Delete" functionality in this file with "onclick" event to the "Delete" function.
+	- Add the "Delete(url)" function code in same file
+	- Uses "Sweet Alert" for sucess and error messages
+	- Uses "Toastr" for notifications
+
+- Save all changes till this point.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
