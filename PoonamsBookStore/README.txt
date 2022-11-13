@@ -486,3 +486,45 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-12 11:30 pm
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Start the Part 2.3 - Category CRUD
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- With the addition of UnitOfWork in Startup.cs, it will be accessible with DI by any Controller.
+
+- Close all currently opened tabs.
+
+- Add a new MVC Controller - Emplty inside "Areas > Admin > Controller"
+- Named it "CategoryController.cs"
+- Modify the code and include using statements in Controller file.
+
+- Open the file "CategoryController.cs" and update the code as per pptx.
+- Add "region" code in that file.
+
+- Add a new folder in the folder "Areas > Admin > View" named "Category".
+- Add a new "Index" view to the folder (note the template)
+- And modify with the generic HTML code from the "Category Index View.txt" found in the "Assignment 2 Files".
+
+- Save all changes till this point.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Open the file "_Layout.cshtml" and add the "Category" tab in the "Content MAnagement" dropdown.
+- Make sure that code is working or not with that link.
+
+- Review the changes to the navigation.
+- Test the application - All good
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
