@@ -579,6 +579,8 @@
 - Rebuild the application - All done
 - Test the apllication - All good
 
+- Commit All Changes to GitHub repository.
+
 - End time : 3:45 am
 
 
