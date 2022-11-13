@@ -528,3 +528,30 @@
 
 - Save all changes till this point.
 - Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-13 12:23 am
+
+- Open and Modify the "Index.cshtml" file to add the icons in the Category section from "Font Awesome"
+- And then "Confirm"
+
+- Delete it and add the JAvaScript file from the "Assignment 2 Files" folder in to the folder "wwwroot > js" named "category.js"
+- Update the file "Index.cshtml" - add the @section call to the "category.js" script
+
+- Test the application - All good
+
+- Now it's time to apply the code to activate the "Edit" and "Delete" buttons 
+- and "Create New Category" using "Upsert" action
+
+- Add "IActionResult" for "Upsert" in controller and add "View" for that from controller action
+- Copy and add the html from the "Category Upsert View.txt" from "Assignment 2 Files" 
+
+- Create a "partial view" for the "EDIT | BACK".
+- Through - right click on the folder "Shared > Add > View" 
+- Change the name as per given name and select the check box for partial view 
+
+- Save all changes till this point.
+- Commit All Changes to GitHub repository.
