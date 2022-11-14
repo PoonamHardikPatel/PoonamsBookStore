@@ -31,7 +31,7 @@ namespace PoonamsBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)        // action method for upsert
         {
-            Category category = new Category();     //using pujasBooks.Model
+            Category category = new Category();     //using poonamsBooks.Model
             
             if (id == null)
             {
@@ -85,7 +85,6 @@ namespace PoonamsBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        #endregion
 
 
         [HttpDelete]
@@ -102,5 +101,6 @@ namespace PoonamsBookStore.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful!!" });
         }
+        #endregion
     }
 }

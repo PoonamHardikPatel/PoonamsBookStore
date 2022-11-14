@@ -32,11 +32,10 @@ function loadDataTable() {
 }
 
 
-function Dalete(url)
-{
+function Delete(url) {
     swal({
-        title: "Are you sure you want to delete ?",
-        text: "You will not be able to restore the data!!",
+        title: "Are you sure you want to delete?",
+        text: "You will not be able to restore the data!",
         icon: "Warning",
         buttons: true,
         dangerMode: true

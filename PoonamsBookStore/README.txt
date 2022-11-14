@@ -619,6 +619,44 @@
 
 - Build the project ..
 - Rebuild the application - All done
-- Test the apllication - All good
+- Test the apllication
+	- "Delete" is not woking i.e. pop-up for "Delete" is not showing on browser
 
 - Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-13 6:50 pm
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication
+	- "Delete" is not woking i.e. pop-up for "Delete" is not showing on "Chrome" browser
+
+- Solve the error by changing the pop-up settings to enable for "Chrome" browser
+
+- After pop-up enable - "Delete" pop-up is showing in browser.
+
+- Save all changes till this point.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All done
+
+- Commit All Changes to GitHub repository.
+
+- End time : 8:30 pm
+
+//----------------------------------------------------------------------------------------
+
+
+- END OF PART - 2
+
+
+//----------------------------------------------------------------------------------------
