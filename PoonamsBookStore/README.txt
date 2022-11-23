@@ -722,3 +722,15 @@
 - Test the apllication - All good
 
 - Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
+
+
+- Open the file "IUnitOfWork.cs" and Update the code and add getter property for "ICoverTypeRepository"
+- Open the file "UnitOfWork.cs" and Update the code and add getter and private setter property for "ICoverTypeRepository"
+
+- Commit All Changes to GitHub repository.
+
+
+//----------------------------------------------------------------------------------------
