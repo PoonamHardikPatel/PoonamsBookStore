@@ -653,6 +653,7 @@
 
 - End time : 8:30 pm
 
+
 //----------------------------------------------------------------------------------------
 
 
@@ -660,3 +661,40 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-22 10:37 pm - START PART - 3 - Section 1
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Start the Part 3.1 - CoverType CRUD
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Add a new table to the DB by creating a Category model and push it to the DB :
+- Add new class file in "PoonamsBooks.Models" through
+	- Right click on "PoonamsBooks.Models > Add > Class" 
+	- named : "CoverType.cs"
+
+- Modify the code in "CoverType.cs" file.
+- Add properties in cs file "Id & Name"
+
+- Update the "ApplicationDbContext.cs" file 
+- Add "using PoonamsBooks.Models;" namespace
+- And add getter and setter for "CoverType"
+
+- Re-run the "Add-Migration AddCoverTypeToDb" command in NuGet Package manager console
+- Then run the "Update-Database" command in Package console
+- Build succeeded :
+	- Output :
+		-Build started...
+		- Build succeeded.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
