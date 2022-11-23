@@ -309,7 +309,7 @@
 - Then run the "Update-Database" command in Package console
 - Build succeeded :
 	- Output :
-		-Build started...
+		- Build started...
 		- Build succeeded.
 
 - Build the project ..
@@ -334,6 +334,7 @@
 
 - Delete the "AddCategoryToDb.cs" fiel form the Migration folder and try again.
 - Re-run the "Add-Migration AddCategoryToDb" command 
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221111222024_AddCategoryToDb.cs"
 - And then run again "Update-Database"
 
 - After this step - now it's showing "Categories" table in the SQL Server Object Explorer tables.
@@ -686,11 +687,12 @@
 - Add "using PoonamsBooks.Models;" namespace
 - And add getter and setter for "CoverType"
 
-- Re-run the "Add-Migration AddCoverTypeToDb" command in NuGet Package manager console
+- Run the "Add-Migration AddCoverTypeToDb" command in NuGet Package manager console
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221123041903_AddCoverTypeToDb.cs"
 - Then run the "Update-Database" command in Package console
 - Build succeeded :
 	- Output :
-		-Build started...
+		- Build started...
 		- Build succeeded.
 
 - Build the project ..
@@ -765,3 +767,50 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-23 12:06 pm - START PART - 3 - Section 1
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 2 from pptx
+
+- Start the Part 3.1 - CoverType CRUD
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Add a new table to the DB by creating a Category model and push it to the DB :
+- Add new class file in "PoonamsBooks.Models" through
+	- Right click on "PoonamsBooks.Models > Add > Class" 
+	- named : "Product.cs"
+
+- Modify the code in "Product.cs" file.
+- Add properties in cs file as per pptx
+
+- Update the "ApplicationDbContext.cs" file 
+- Add "using PoonamsBooks.Models;" namespace
+- And add getter and setter for "Product"
+
+- Run the "Add-Migration AddProductToDb" command in NuGet Package manager console
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221123172952_AddProductToDb.cs"
+- Then run the "Update-Database" command in Package console
+- Build succeeded :
+	- Output :
+		- Build started...
+		- Build succeeded.
+
+- Open the file "Product.cs" and update the validation [Required] for "Title", "ISBN" and "Author"
+- Re-run the "Add-Migration addValidationtoProduct" command in NuGet Package manager console
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221123180521_AddValidationToProduct.cs"
+- Then run the "Update-Database" command in Package console
+- Build succeeded :
+	- Output :
+		- Build started...
+		- Build succeeded.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
