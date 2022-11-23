@@ -10,7 +10,7 @@ namespace PoonamsBooks.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Category Name")]
+        [Display(Name = "Cover Type Name")]
         [Required]
         [MaxLength(50)]
 

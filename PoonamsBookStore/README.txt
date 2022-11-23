@@ -734,3 +734,34 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-23 12:19 am 
+
+- Add a new MVC Controller - Empty inside "Areas > Admin > Controller"
+- Named it "CoverTypeController.cs"
+- Modify the code and include using statements in Controller file.
+
+- Open the file "CoverTypeController.cs" and update the code as per pptx.
+- Add "region" code in that file.
+
+- Add a new folder in the folder "Areas > Admin > View" named "CoverType".
+- Add a new "Index.cs" Razor - view to the folder (note the template)
+- Add a new "Upsert.cs" Razor - view to the folder (note the template)
+- Open this both files and update the code as per category pages.
+- Create "coverType.js" file in the folder "PoonamsBookStore > wwwroot > js" 
+- and update the code as per "category.js" file
+
+- Save all changes till this point.
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+- Create, Update and Delete is working properly for "CoverType"
+
+- Commit All Changes to GitHub repository.
+
+- End time : 1:59 am
+
+
+//----------------------------------------------------------------------------------------
