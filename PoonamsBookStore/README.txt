@@ -698,3 +698,27 @@
 - Test the apllication - All good
 
 - Commit All Changes to GitHub repository.
+
+- Create individual repos for Category and all potential models to be added in the future 
+	- CoverTypeRepository.cs
+	- ICoverTypeRepository.cs
+- Create the file in "Repository" folder named "CoverTypeRepository.cs"
+- Also create the file in "IRepository" folder named "ICoverTypeRepository.cs"
+
+- Modify "CoverTypeRepository.cs" 
+	- note the using statements and the message for formal parameters
+	- review in "Repository.cs" the method pointing to the ApplicationDbContext
+- Modify "ICoverTypeRepository.cs" interface
+- Review and modify the error now in "CoverTypeRepository.cs" 
+	- Implement the interface to update 
+
+- Go back to "CoverTypeRepository.cs" file 
+- Rectify the error line - select the dropdown option on "ICoverTypeRepository"
+- Through this step - automatic generate the "Update" method
+- Complete the remaining modifications and write the comments
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
