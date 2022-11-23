@@ -814,3 +814,28 @@
 - Test the apllication - All good
 
 - Commit All Changes to GitHub repository.
+
+- Create individual repos for Category and all potential models to be added in the future 
+	- ProductRepository.cs
+	- IProductRepository.cs
+- Create the file in "Repository" folder named "ProductRepository.cs"
+- Also create the file in "IRepository" folder named "IProductRepository.cs"
+
+- Modify "ProductRepository.cs" 
+	- note the using statements and the message for formal parameters
+	- review in "Repository.cs" the method pointing to the ApplicationDbContext
+- Modify "IProductRepository.cs" interface
+- Review and modify the error now in "ProductRepository.cs" 
+	- Implement the interface to update 
+
+- Go back to "ProductRepository.cs" file 
+- Rectify the error line - select the dropdown option on "ICoverTypeRepository"
+- Through this step - automatic generate the "Update" method
+- Change the code for this "Update" method as per pptx
+- Complete the remaining modifications and write the comments
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
