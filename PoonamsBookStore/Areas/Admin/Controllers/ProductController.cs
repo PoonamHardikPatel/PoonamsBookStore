@@ -90,7 +90,7 @@ namespace PoonamsBookStore.Areas.Admin.Controllers
         }
 
 
-        /*
+        
         // use HTTP POST to define the post-action method
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -114,7 +114,7 @@ namespace PoonamsBookStore.Areas.Admin.Controllers
 
             return View(product);
         }
-        */
+        
 
         // API calls here for Delete
         #region API CALLS

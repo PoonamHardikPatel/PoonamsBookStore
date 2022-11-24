@@ -896,3 +896,29 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-23 11:20 pm - START PART - 3 - Section 3
+
+- Start the Part 3.3 - Product CRUD
+
+- Right Click on the folder "Areas > Admin > View > Product".
+- Add a new "Upsert.cs" Razor - view to the folder (note the template)
+- Add properties as per Product in "Upsert.cs" file
+- Update the code of "@section" at the end of file
+- and add a function to validate input 
+- and if empty, display a Sweet Alert
+
+- Run the application - but it's not working properly
+- Showing error : 
+	System.InvalidOperationException: 'Invalid include path: ' CoverType' - couldn't find navigation for: ' CoverType''
+
+- Error - Not Solved !!!!!!!!
+
+- Add a new folder and subfolder in "wwwroot > images" and "wwwroot > images > products"
+- Open the file "ProductContoller.cs" and update the file that uncomment the "IActionResult Upsert" for post.
+
+- End time : 01:20 pm
+
+
+//----------------------------------------------------------------------------------------
