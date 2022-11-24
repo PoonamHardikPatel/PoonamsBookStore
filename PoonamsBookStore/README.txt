@@ -775,7 +775,7 @@
 - Clone the repository of existing project from GitHub
 - Continue with part 2 from pptx
 
-- Start the Part 3.1 - CoverType CRUD
+- Start the Part 3.1 - CoverType & Product CRUD
 - Build the project ..
 - Rebuild the application - All done
 - Test the apllication - All good
@@ -839,3 +839,60 @@
 - Test the apllication - All good
 
 - Commit All Changes to GitHub repository.
+- Complete the Part 3.1 - CoverType & Product CRUD
+
+- End time : 1:57 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-23 2:00 pm - START PART - 3 - Section 2
+
+- Start the Part 3.2 - Product CRUD
+
+- Add a new MVC Controller - Empty inside "Areas > Admin > Controller"
+- Named it "ProductController.cs"
+- Modify the code and include using statements in Controller file.
+- Add the "IWebHostEnvironment" call and using stament for this is : "using Microsoft.AspNetCore.Hosting;"
+- Note : this changes to the public "ProductController" method
+
+- Open the file "IUnitOfWork.cs" and Update the code and add getter property for "IProductRepository"
+- Open the file "UnitOfWork.cs" and Update the code and add getter and private setter property for "IProductRepository"
+
+- Create a model file in "PoonamsBooks.Models > ViewModels" named - "ProductVM.cs"
+- Modify the "ProductVM" class file as per pptx
+- Install the "Microsoft.AspNetCore.Mvc.ViewFeatures" through NuGet Package Manager 
+
+- Open the controller file "ProductController.cs" and update the "IActionresult Upsert" method 
+- Comment out the "Upset" post method for now 
+- Modify the API call to include the "Category" and "CoverType" properties
+
+
+//----------------------------------------------------------------------------------------
+
+
+2022-11-23 10:30 pm 
+
+- Add an "Index" razor view 
+- Copy the "Index.cshtml" code from "Views > Category"
+- Modify to the code and add List header for - Title / ISBN / Price / Author / Category 
+- And reference a new "product.js" file
+
+- Create "product.js" file in the folder "PoonamsBookStore > wwwroot > js" 
+- and update the code as per "category.js" file
+- Modify the URL to Point to Product and add data for all properties.
+
+- Modify the "_Layout.cshtml" to add a new link to "Product".
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
+- Complete the Part 3.2 - Product CRUD
+
+- End time : 11:13 pm
+
+
+//----------------------------------------------------------------------------------------
