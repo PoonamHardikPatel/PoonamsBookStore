@@ -8,7 +8,7 @@
 <form method="post" enctype="multipart/form-data">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.Product.Id != 0)       // if this value is null it will not display 'Edit Cover Type', change to  0
+        @if (Model.Product.Id != 0)       // if this value is null it will not display 'Edit Category', change to  0
         {
             // edit
             title = "Edit Product";
@@ -51,7 +51,6 @@
                 </div>
                 <div class="col-8">
                     <textarea asp-for="Product.Description" class="form-control"></textarea>
-                    <span asp-validation-for="Product.Description" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
@@ -65,29 +64,30 @@
             </div>
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Product.Category.Name"></label>
+                    Category
                 </div>
                 <div class="col-8">
-                    <input asp-for="Product.Category.Name" class="form-control" />
-                    <span asp-validation-for="Product.Category.Name" class="text-danger"></span>
+                    @Html.DropDownListFor(m => m.Product.CategoryId, Model.CategoryList, "-Select a Category",
+                   new { @class = "form-control" })
+                    <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Product.CoverType.Name"></label>
+                    Cover Type
                 </div>
                 <div class="col-8">
-                    <input asp-for="Product.CoverType.Name" class="form-control" />
-                    <span asp-validation-for="Product.CoverType.Name" class="text-danger"></span>
+                    @Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
+                   new { @class = "form-control" })
+                    <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Product.ImageUrl"></label>
+                    Image
                 </div>
                 <div class="col-8">
-                    <input asp-for="Product.ImageUrl" class="form-control" />
-                    <span asp-validation-for="Product.ImageUrl" class="text-danger"></span>
+                    <input type="file" name="files" id="uploadBox" multiple class="form-control" />
                 </div>
             </div>
             <div class="form-group row">
@@ -98,13 +98,21 @@
                     }
                     else
                     {
-                        <partial name="_CreateAndBackToListButton" />
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
+                            </div>
+                            <div class="col">
+                                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                            </div>
+                        </div>
                     }
                 </div>
             </div>
         </div>
     </div>
 </form>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

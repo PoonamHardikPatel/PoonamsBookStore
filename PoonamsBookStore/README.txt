@@ -922,3 +922,32 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-24 05:22 pm 
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 3 from pptx
+
+- Trying to solve error...
+
+- Open and update the file "Upsert.cs" of "Product"
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Commit All Changes to GitHub repository.
+- Complete the Part 3.3 - Product CRUD
+
+- End time : 07:37 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+- END OF PART - 2
+
+
+//----------------------------------------------------------------------------------------
