@@ -951,3 +951,47 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-11-30 01:52 pm - START PART - 4
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 4 from pptx
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - but through the exception
+- Exception User-Unhandled is :
+	- System.InvalidOperationException: 'Invalid include path: ' CoverType' - couldn't find navigation for: ' CoverType''
+
+- I already did the part 3 section 3, so all the code and migrations are available in my files.
+- Continue with part 4
+
+- Open and update following files as per the given "BulkyBook" repository in blackboard.
+	- File List :
+		- "ProductController.cs" in the folder "Areas > Admin > Controllers"
+		- "Index.cshtml" in the folder "Areas > Admin > Views > Product"
+		- "Upsert.cshtml" in the folder "Areas > Admin > Views > Product"
+		- "product.js" in the folder "wwwroot > js"
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All good
+
+- Prodcut function is working as per expected output.
+	- Done with "Create / Edit / Delete" operation
+
+- Commit All Changes to GitHub repository.
+- Complete the Part 4
+
+- End time : 02:41 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+- END OF PART - 4
+
+
+//----------------------------------------------------------------------------------------

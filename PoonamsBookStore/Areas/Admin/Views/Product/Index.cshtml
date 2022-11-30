@@ -1,10 +1,6 @@
-﻿
-@{
-    @*ViewData["Title"] = "Index";*@
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Index</h1>
 
 <br />
 <div class="row">
@@ -32,17 +28,7 @@
     </table>
 </div>
 
-<!--
-<div class="text-center">
-    <a href="/Admin/Category/Upsert/id" class="btn btn-success text-white">
-        <i class="fas fa-edit"></i>
-    </a>
-    <a class="btn btn-danger text-white" style="cursor:pointer">
-        <i class="fas fa-trash-alt"></i>
-    </a>
-</div>
--->
+@section Scripts{
 
-@section Scripts {
     <script src="~/js/product.js"></script>
 }
