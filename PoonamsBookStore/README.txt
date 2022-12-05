@@ -991,6 +991,37 @@
 //----------------------------------------------------------------------------------------
 
 
+2022-12-04 10:45 pm
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+- Continue with part 4 from pptx
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All done
+
+- Open the file "Product.cs" and update and add the fields "Price", "Price50" and "Price100"
+
+- Run the "Add-Migration AddPriceFieldsToProductDb" command in NuGet Package manager console
+- Created migration file in "PoonamsBooks.DataAccess > Migrations" named : "20221205034946_AddPriceFieldsToProductDb.cs"
+- Then run the "Update-Database" command in Package console
+- Build succeeded :
+	- Output :
+		- Build started...
+		- Build succeeded.
+
+- Open and update following files as per the given "BulkyBook" repository in blackboard.
+	- File List :
+		- "Upsert.cshtml" in the folder "Areas > Admin > Views > Product"
+		- "product.js" in the folder "wwwroot > js"
+
+- 
+
+
+//----------------------------------------------------------------------------------------
+
+
 - END OF PART - 4
 
 
