@@ -983,7 +983,6 @@
 	- Done with "Create / Edit / Delete" operation
 
 - Commit All Changes to GitHub repository.
-- Complete the Part 4
 
 - End time : 02:41 pm
 
@@ -1016,7 +1015,24 @@
 		- "Upsert.cshtml" in the folder "Areas > Admin > Views > Product"
 		- "product.js" in the folder "wwwroot > js"
 
-- 
+- Commit All Changes to GitHub repository.
+
+
+2022-12-04 11:31 pm
+
+- Open "HomeController.cs" file from folder "Areas > Customer > Controllers"
+	- Update this controller file as per "BulkyBook" repository
+
+- Open "Index.cshtml" file from folder "Areas > Customer > Views"
+	- Update this cshtml file as per "BulkyBook" repository
+
+- Open "Upsert.cshtml" file from folder "Areas > Admin > Views > Product"
+	- Update this cshtml file as per "BulkyBook" repository 
+
+- Commit All Changes to GitHub repository.
+- Complete the Part 4
+
+- End time : 11:43 pm
 
 
 //----------------------------------------------------------------------------------------
