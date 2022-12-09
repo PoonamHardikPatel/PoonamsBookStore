@@ -1042,3 +1042,41 @@
 
 
 //----------------------------------------------------------------------------------------
+
+
+2022-12-09 12:00 pm
+
+- Open Visual Studio Community 2019 
+- Clone the repository of existing project from GitHub
+
+- Build the project ..
+- Rebuild the application - All done
+- Test the apllication - All done
+
+- Now try to doploy the application to Azure 
+	- with the guidance of given link to the blackboard
+
+- Create the azure application with database connection
+	- Create database in azure database with Username & Password
+
+- After Creating databse connection and change all neccessory changes 
+	- try to Publish this "PoonamsBookStore" application 
+
+- PoonamsBookStore - Web Deploy 
+	- Publish Succeeded.
+
+- Azure published link is : https://poonamsbookstore.azurewebsites.net
+
+- Commit All Changes to GitHub repository.
+- Complete the step for publish the application & link is shown above
+
+- End time : 02:00 pm
+
+
+//----------------------------------------------------------------------------------------
+
+
+- END OF ASSIGNMENT - 2
+
+
+//----------------------------------------------------------------------------------------
